@@ -1,7 +1,7 @@
-# UICityPicker
+# UICountDownButton
 
-A simple city selector
-一个简单的城市选择器
+A simple CountDown Button
+一个简单的倒计时按钮
 
 
 ##Requirements
@@ -13,12 +13,12 @@ A simple city selector
 
 ```ruby
 use_frameworks!
-pod 'UICityPicker' , :git => "https://github.com/Dcell/UICityPicker.git", :tag => "1.0.0"
+pod 'UICountDownButton' , :git => "https://github.com/Dcell/UICountDownButton.git", :tag => "1.0.0"
 ```
 
 ##Usage
 
-At first, import UICityPicker:
+At first, import UICountDownButton:
 
 ```swift
 import UICityPicker
@@ -27,12 +27,9 @@ import UICityPicker
 then
 
 ```swift
-let cityPick =  UICityPicker()
-let cityPickView = cityPick.presentCityPicker(viewController: self)
-cityPickView.cityPickerDelegate = self
+let countDownButton =  UICountDownButton()
+self.view.addsubView(countDownButton)
 ```
-
-![image](https://github.com/Dcell/UICityPicker/blob/master/Screenshots/thumb_IMG_0575_1024.jpg)
 
 
 Have fun! :)
