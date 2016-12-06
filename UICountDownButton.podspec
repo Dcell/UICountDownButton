@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Dcell/UICountDownButton.git", :tag => "#{s.version}" }
 
-
+	s.frameworks = "UIKit","Foundation"
+	
   s.source_files  = "Classes", "UICountDownButton/**/*.{h,m,swift}"
 
 
