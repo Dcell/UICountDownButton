@@ -13,8 +13,9 @@ Pod::Spec.new do |s|
 
   s.author             =  "dingqili"
 
-  s.platform     = :ios
   s.platform     = :ios, "8.0"
+  
+  s.ios.deployment_target = "8.0"
 
   s.source       = { :git => "https://github.com/Dcell/UICountDownButton.git", :tag => "#{s.version}" }
 
